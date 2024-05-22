@@ -16,3 +16,6 @@
 
 ## Context Diagram
 <img src="https://github.com/lamle78/Group-06_On-Demand-Tutor/blob/main/Video%20Demo/TutorProject-Page-1.drawio.png">
+
+## Usecase Diagram
+<img src="https://github.com/lamle78/Group-06_On-Demand-Tutor/blob/main/Video%20Demo/TutorProject-Page-2.drawio.png">
