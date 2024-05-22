@@ -13,3 +13,6 @@
 ●        Moderator: a user is responsible for content moderation and complaints on the website.
 
 ●        Administrator: a privileged user who can manage the entire system.
+
+## Context Diagram
+<img src="https://github.com/lamle78/Group-06_On-Demand-Tutor/blob/main/Video%20Demo/TutorProject-Page-1.drawio.png">
