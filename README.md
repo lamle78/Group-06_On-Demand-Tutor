@@ -21,10 +21,9 @@
 <img src="https://github.com/lamle78/Group-06_On-Demand-Tutor/blob/main/Video%20Demo/TutorProject-Page-2.drawio.png">
 
 
-
 | Sprint | User Story ID | Description|
-|--------------|-------|------|-------|
-| Sprint 1 | N2_SE1841 | 1 x 2 | 1 x 3 |
-| Sprint 2 | 2 x 1 | 2 x 2 | 2 x 3 | 
-| Sprint 3 | 3 x 1 | 3 x 2 | 3 x 3 |
-| Sprint 4 | 4 x 1 | 4 x 2 | 4 x 3 |
+|--------------|-------|------|
+| Sprint 1 | N2_SE1841 | 1 x 2 |
+| Sprint 2 | 2 x 1 | 2 x 2 |
+| Sprint 3 | 3 x 1 | 3 x 2 | 
+| Sprint 4 | 4 x 1 | 4 x 2 | 
