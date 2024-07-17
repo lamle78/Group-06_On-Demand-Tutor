@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Điền Thông Tin Giáo Viên - Giasumienphi.edu.vn</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .header {
+                background-color: #001F3F;
+                color: white;
+                text-align: center;
+                padding: 10px 0;
+                margin: -25px;
+            }
+            .header h1 {
+                margin: 0;
+            }
+            .nav {
+                background-color: #F8F9FA;
+                display: flex;
+                align-items: center;
+                padding: 10px 20px;
+                border-bottom: 1px solid #ddd;
+            }
+            .nav img {
+                height: 50px;
+                margin-right: 20px;
+            }
+            .nav a {
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                padding: 10px 20px;
+                margin: 0 5px;
+                display: inline-block;
+            }
+            .nav .logout-button {
+                background-color: #FF4136;
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-weight: bold;
+                border-radius: 5px;
+                margin-left: auto;
+            }
+            .container {
+                padding: 20px;
+            }
+            .form-section {
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .form-section h2 {
+                margin-top: 0;
+            }
+            .form-section form {
+                display: flex;
+                flex-direction: column;
+            }
+            .form-section label {
+                margin: 10px 0 5px;
+            }
+            .form-section input, .form-section select, .form-section textarea {
+                padding: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                font-size: 16px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .form-section button {
+                margin-top: 20px;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                background-color: #007BFF;
+                color: white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            .form-section button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h5>Điền Thông Tin Giáo Viên</h5>
+        </div>
+        <div class="nav">
+            <img src="img/logo.png" alt="Logo">
+            <a href="home.html">Trang Chủ</a>
+            <a href="profile.html">Thông Tin Cá Nhân</a>
+            <a href="students.html">Học Sinh</a>
+            <a href="schedule.html">Lịch Dạy</a>
+            <a href="logout.html" class="logout-button">Đăng Xuất</a>
+        </div>
+        <div class="container">
+            <div class="form-section">
+                <h2>Thông Tin Cá Nhân</h2>
+                <form action="submit-profile.html" method="post" enctype="multipart/form-data">
+                    <!-- Personal Information -->
+                    <label for="name">Tên:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="gender">Giới tính:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected hidden>Chọn giới tính</option>
+                        <option value="male">Nam</option>
+                        <br/>
+                        <option value="female">Nữ</option>
+                    </select>
+
+                    <label for="dob">Năm Sinh:</label>
+                    <input type="number" id="dob" name="dob" min="2004" max="2023" required>
+
+                    <label for="address">Địa Chỉ:</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="phone">Số Điện Thoại:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="class">Chọn Lớp:</label>
+                    <select id="class" name="class" required>
+                        <option value="" disabled selected hidden>Chọn lớp</option>
+                        <option value="1">Lớp 1</option>
+                        <br/>
+                        <option value="2">Lớp 2</option>
+                        <br/>
+                        <option value="3">Lớp 3</option>
+                        <br/>
+                        <option value="4">Lớp 4</option>
+                        <br/>
+                        <option value="5">Lớp 5</option>
+                        <br/>
+                        <option value="6">Lớp 6</option>
+                        <br/>
+                        <option value="7">Lớp 7</option>
+                        <br/>
+                        <option value="8">Lớp 8</option>
+                        <br/>
+                        <option value="9">Lớp 9</option>
+                        <br/>
+                        <option value="10">Lớp 10</option>
+                        <br/>
+                        <option value="11">Lớp 11</option>
+                        <br/>
+                        <option value="12">Lớp 12</option>
+                    </select>
+                    <!-- Profile Picture Upload -->
+                    <label for="profile_picture">Ảnh Đại Diện:</label>
+                    <input type="file" id="profile_picture" name="profile_picture" accept=".jpg,.jpeg,.png">
+                    <!-- Submit Button -->
+                    <button type="submit">Lưu Thông Tin</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
